@@ -1,0 +1,16 @@
+.content-table {
+  font-family: var(--theme-font);
+  color: black;
+  font-size: 20px;
+}
+
+.content-table td {
+  font-size: 19px;
+}
+
+@media screen and (max-width: 769px) {
+  .content-table th,
+  .content-table td {
+    font-size: 18px;
+  }
+}

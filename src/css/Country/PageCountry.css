@@ -1,0 +1,120 @@
+.country-page-section {
+  width: 1200px;
+}
+
+/* //////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////////// */
+
+.country-page-fee,
+.country-page-universities,
+.country-page-cost,
+.country-page-skill {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.country-page-fee-wrapper,
+.country-page-universities-wrapper,
+.country-page-cost-wrapper,
+.country-page-skill-wrapper {
+  width: calc(100% - 300px);
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.country-page-fee-wrapper p,
+.country-page-universities p,
+.country-page-cost p,
+.country-page-skill p,
+.country-page-city-wrapper p {
+  font-size: 18px;
+  font-family: var(--theme-font);
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+}
+
+.country-page-fee-image,
+.country-page-uni-image,
+.country-page-cost-image,
+.country-page-skill-image {
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+.country-page-fee-image span,
+.country-page-uni-image span,
+.country-page-cost-image span,
+.country-page-skill-image span {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.country-page-city-wrapper {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+  .country-page-section {
+    width: 1050px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .country-page-section {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .country-page-section {
+    width: auto;
+  }
+
+  .country-page-fee,
+  .country-page-universities,
+  .country-page-cost,
+  .country-page-skill {
+    margin-top: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .country-page-fee-wrapper,
+  .country-page-universities-wrapper,
+  .country-page-cost-wrapper,
+  .country-page-skill-wrapper {
+    width: 100%;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .country-page-fee-wrapper p,
+  .country-page-universities-wrapper p,
+  .country-page-cost-wrapper p,
+  .country-page-skill-wrapper p {
+    text-align: center;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .country-page-fee-image,
+  .country-page-uni-image,
+  .country-page-cost-image,
+  .country-page-skill-image {
+    width: 250px;
+    height: 250px;
+  }
+}

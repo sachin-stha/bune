@@ -1,0 +1,135 @@
+:root {
+  --country-image-slide-width: calc(400px + 0.5rem);
+  --country-image-slide-height: 280px;
+}
+
+.country-page-para {
+  margin-right: 5rem;
+}
+
+.country-page-para p {
+  color: white;
+  font-family: var(--theme-font);
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.country-page-slider-wrapper {
+  width: var(--country-image-slide-width);
+  height: var(--country-image-slide-height);
+  overflow: hidden;
+}
+
+.country-page-slider-wrapper ul {
+  width: 300%;
+  transition: 1s;
+}
+
+.country-page-slider-wrapper ul li {
+  width: var(--country-image-slide-width);
+  height: var(--country-image-slide-height);
+  overflow: hidden;
+}
+
+.country-page-slide {
+  transition: 0.3s;
+}
+
+.country-page-slider-wrapper ul li:hover > .country-page-slide {
+  scale: 1.1;
+}
+
+.country-page-slide-gradient {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+  z-index: 1;
+  pointer-events: none;
+}
+
+.country-page-slide-caption {
+  font-family: var(--theme-font);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 5px 20px;
+  z-index: 2;
+}
+
+.country-page-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.country-page-slider-btn {
+  width: var(--country-image-slide-width);
+  height: var(--country-image-slide-height);
+  pointer-events: none;
+}
+
+.country-page-slider-btn button {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 22px;
+  margin: 0 10px;
+  transition: 0.2s;
+  z-index: 2;
+  pointer-events: visible;
+}
+
+.country-page-slider-btn button:hover {
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .country-page-section-contents-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .country-page-para {
+    margin-top: 40px;
+    margin-right: 0;
+  }
+
+  .country-page-para p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    --country-image-slide-width: calc(350px + 0.5rem);
+    --country-image-slide-height: 230px;
+  }
+
+  .country-page-para {
+    margin: 0 30px;
+    margin-top: 40px;
+  }
+
+  .country-page-para p {
+    font-size: 18px;
+  }
+
+  .country-page-slide-caption {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .country-page-section-contents {
+    width: 80%;
+    margin: auto;
+  }
+
+  .country-page-para {
+    margin: 40px 0 0;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  :root {
+    --country-image-slide-width: calc(320px + 0.5rem);
+    --country-image-slide-height: 200px;
+  }
+}

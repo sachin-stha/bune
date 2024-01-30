@@ -1,0 +1,48 @@
+.item-heading {
+  font-family: var(--theme-font);
+  color: black;
+  text-align: center;
+}
+
+.primary-heading {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.secondary-heading {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.item-heading-section-title {
+  background-color: var(--main-theme-color);
+  width: 50px;
+  height: 2px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .primary-heading {
+    font-size: 30px;
+    padding: 0 5%;
+  }
+
+  .secondary-heading {
+    font-size: 16px;
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .primary-heading {
+    font-size: 25px;
+    padding: 0 5%;
+  }
+
+  .secondary-heading {
+    font-size: 15px;
+    padding: 0 5%;
+  }
+}

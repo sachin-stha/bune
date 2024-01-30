@@ -1,0 +1,42 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+:root {
+  --main-theme-color: rgb(255, 33, 99);
+  --header-max-width: 1300px;
+  --header-height: 70px;
+  --theme-font: "Source Sans 3", sans-serif;
+  --toggled-header-padding: 0 5%;
+}
+
+@media screen and (max-width: 1400px) {
+  :root {
+    --header-max-width: 1050px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --header-max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    --header-max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  :root {
+    --header-max-width: auto;
+  }
+}
+
+svg {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}

@@ -1,0 +1,746 @@
+{
+  "reasonItemColor": [
+    "rgb(96 196 214)",
+    "rgb(178 39 51)",
+    "rgb(244 210 71)",
+    "rgb(0 118 190)",
+    "rgb(245 142 28)"
+  ],
+
+  "portugal": {
+    "sliderImg": "url('/assets/img/countries/country/portugal/portugal.jpeg')",
+    "flagImg": "/assets/img/countries/country/portugal/portugal_flag.png",
+    "img": {
+      "url": [
+        "url(/assets/img/countries/country/portugal/belem-tower.jpg)",
+        "url(/assets/img/countries/country/portugal/jeronimos-monastery.jpg)",
+        "url(/assets/img/countries/country/portugal/praca-do-comercio.jpg)"
+      ],
+      "placename": ["Belém Tower", "Jerónimos Monastery", "Praça do Comércio"]
+    },
+    "facts": [
+      "50,000+#Students annually opt for education in Portugal.",
+      "13#Top-ranked universities lies in Portugal.",
+      "7th#Ranked in world according to Global Peace Index"
+    ],
+    "introduction": "Choosing Portugal as your study destination opens the door to a diverse tapestry of benefits. Immerse yourself in a culturally vibrant environment where history, tradition, and modernity seamlessly blend, creating a unique atmosphere for academic gsectionth. Portugal boasts high-quality education, ensuring that students receive a well-rounded and globally relevant learning experience. The warm and welcoming atmosphere adds an extra layer of comfort, fostering a sense of community among students from various backgrounds. #Additionally, students can explore historical landmarks, enjoy diverse landscapes, and gain a global perspective in a country renowned for its warm hospitality.",
+    "reasons": {
+      "caption": [
+        "Quality Education",
+        "Cultural Diversity",
+        "Affordable Living",
+        "Beautiful Scenery and Climate",
+        "Language Opportunities"
+      ],
+      "explaination": [
+        "Top universities offer globally recognized programs, ensuring an innovative and impactful educational experience.",
+        "Immerse in rich traditions, fostering global perspectives and personal development in a vibrant environment.",
+        "Experience a high standard of living at a comparatively lower cost, ensuring financial comfort.",
+        "Serene landscapes, picturesque coastlines, and mild Mediterranean climate create a positive, well-being-focused learning environment in Portugal",
+        "Diverse linguistic environment, Portuguese immersion, and English accessibility enhance international students' educational experience in Portugal."
+      ],
+      "icon": ["fa-book", "fa-users", "fa-money", "fa-tree", "fa-language"]
+    },
+    "visaProcess": "Securing a student visa for Portugal from Nepal starts with meeting eligibility, such as having a university acceptance and sufficient funds. Gather documents like your passport, acceptance letter, financial proof, and insurance. Schedule an appointment at the Portuguese Embassy in India or the VFS center in Nepal to submit your application. After processing, collect your visa and remember to apply for a student residence permit upon arrival. With thorough preparation and the right resources, the path to studying in Portugal is within reach!",
+    "study": {
+      "level": ["Undergraduate", "Postgraduate", "PHD"],
+      "cost": ["£550 - £1,050", "£1000 - £2500", "£1500 - £5000"]
+    },
+    "university": {
+      "name": [
+        "University of Lisbon",
+        "University of Porto",
+        "University of Coimbra",
+        "New University of Lisbon",
+        "University of Minho"
+      ],
+      "rank": ["329", "376", "471-500", "571-590", "701-750"],
+      "countryRank": [1, 2, 3, 4, 5]
+    },
+    "livingCost": {
+      "reason": [
+        "Accomodation",
+        "Food and groceries",
+        "Transportation",
+        "Utilites",
+        "Health Insurance (mandatory)",
+        "Other expenses",
+        "Total"
+      ],
+      "cost": [
+        "€200 - €500",
+        "€150 - €250",
+        "€30 - €50",
+        "€50 - €100",
+        "€20 - €60",
+        "€50 - €100",
+        "€500 - €800"
+      ]
+    },
+    "city": {
+      "imgURL": [
+        "/assets/img/countries/country/portugal/lisbon.jpg",
+        "/assets/img/countries/country/portugal/porto.jpg",
+        "/assets/img/countries/country/portugal/aveiro.jpeg",
+        "/assets/img/countries/country/portugal/braga.jpeg",
+        "/assets/img/countries/country/portugal/coimbra.jpg"
+      ],
+      "name": ["Lisbon", "Porto", "Aveiro", "Braga", "Coimbra"],
+      "explaination": [
+        "Lisbon, the vibrant capital, boasts a lively student scene with esteemed institutions like the University of Lisbon and Nova University. Its dynamic atmosphere, historical charm, and scenic riverside make it irresistible.",
+        "Porto, Portugal's second-largest city, famed for port wine and captivating architecture, hosts the prestigious University of Porto. With a laid-back charm, it lures international students, offering a cultural haven with museums and music.",
+        "Nestled in central Portugal, Aveiro's charm lies in its canals and vibrant moliceiros boats. The youthful University of Aveiro provides innovative programs, making it an ideal choice for a relaxed and affordable study abroad experience.",
+        "Braga, in northern Portugal, is a historic city with religious roots. The University of Minho, a major institution, provides diverse academic programs. Vibrant and youthful, Braga is celebrated for lively festivals and delectable cuisine.",
+        "Once Portugal's capital, Coimbra hosts the country's oldest university, the University of Coimbra. Its distinctive student culture, marked by traditional gowns and lively festivals, complements charming medieval streets and the scenic Mondego River."
+      ]
+    },
+    "skill": {
+      "name": [
+        "Information and Communication Technology (ICT)",
+        "Engineering",
+        "Healthcare",
+        "Tourism and Hospitality"
+      ]
+    }
+  },
+
+  "uk": {
+    "sliderImg": "url('/assets/img/countries/country/uk/uk.jpeg')",
+    "flagImg": "/assets/img/countries/country/uk/uk_flag.png",
+    "img": {
+      "url": [
+        "url('/assets/img/countries/country/Uk/buckingham.jpg')",
+        "url('/assets/img/countries/country/Uk/tower-bridge.jpg')",
+        "url('/assets/img/countries/country/Uk/tower-of-london.jpg')"
+      ],
+      "placename": ["Buckingham Palace", "Tower Bridge", "Tower of London"]
+    },
+    "facts": [
+      "300,000#Students annually opt for education in United Kingdom.",
+      "6th#Largest economy in the world.",
+      "130#University lies in United Kingdom."
+    ],
+    "introduction": "The United Kingdom is an awesome pick for international study, thanks to its super cool education system and top-notch universities like Oxford and Cambridge – they're like the rockstars of academia! These universities always rank high globally, promising an amazing learning experience. But it's not just about hitting the books – the UK is like a cultural melting pot, welcoming students from all over. You'll make friends from every corner of the world, broadening your horizons and sharing some epic experiences.#Plus, the UK is all about innovation, so get ready to dive into cutting-edge stuff that will prep you for the global stage. Choosing the UK isn't just about school; it's a rad mix of great education, diverse cultures, and a chance to grow in ways you never imagined!",
+    "reasons": {
+      "caption": [
+        "World-Class Education",
+        "Internationally Recognized Degrees",
+        "Rich Cultural and Historical Heritage",
+        "Access to Global Industries",
+        "Student-friendly Policies"
+      ],
+      "explaination": [
+        "The UK hosts globally renowned universities, including Oxford, Cambridge, and Imperial College London. These institutions consistently top global rankings, offering widely recognized and respected education with academic excellence and rigorous standards.",
+        "UK university degrees are globally esteemed, bolstering career prospects internationally. Employers worldwide appreciate the quality of education, making a UK degree a passport to diverse opportunities, be it in the UK or your home country.",
+        "Beyond lectures, the UK provides an enriching cultural and historical experience. International students can explore iconic landmarks, join local festivals, and immerse themselves in a country with deep cultural heritage and diverse activities.",
+        "The UK hosts pivotal industries—finance, technology, healthcare, and the arts. Studying here offers proximity to these sectors, providing valuable exposure, internships, and career opportunities, elevating your professional journey.",
+        "The UK prioritizes international student well-being with student-friendly policies. These include work opportunities during studies and post-graduation options, fostering a positive and holistic educational experience for a diverse student community."
+      ],
+      "icon": [
+        "fa-book",
+        "fa-flag",
+        "fa-university",
+        "fa-industry",
+        "fa-graduation-cap"
+      ]
+    },
+    "visaProcess": "Nepalese students aspiring to study in the UK can follow an 8-step visa process. Begin by securing an unconditional offer from a UK university, then obtain a CAS statement. Demonstrate financial stability and English proficiency, followed by an online application, payment of visa fees, and healthcare surcharge. Attend a biometric appointment and patiently await a decision within 8 weeks. Early planning and thorough preparation are vital, so commence well in advance, utilizing resources like the UKVI website and Universities UK International for a seamless journey to your UK studies.",
+    "study": {
+      "level": ["Undergraduate", "Postgraduate", "PHD"],
+      "cost": ["£11,400 - £38,000", "£9,000 - £30,000", "£15,000 - £30,000"]
+    },
+    "university": {
+      "name": [
+        "Oxford University",
+        "Cambridge University",
+        "Imperial College",
+        "University College London",
+        "London School of Economics and Political Science"
+      ],
+      "rank": ["2", "3", "7", "22", "28"],
+      "countryRank": [1, 2, 3, 4, 5]
+    },
+    "livingCost": {
+      "reason": [
+        "Accomodation",
+        "Food and groceries",
+        "Transportation",
+        "Bills",
+        "Other expenses",
+        "Total"
+      ],
+      "cost": [
+        "£400 - £800",
+        "£200 - £300",
+        "£50 - £100",
+        "£50 - £100",
+        "£100 - £200",
+        "£800 - £1,500"
+      ]
+    },
+    "city": {
+      "imgURL": [
+        "/assets/img/countries/country/Uk/cambridge.jpeg",
+        "/assets/img/countries/country/Uk/edinburgh.jpeg",
+        "/assets/img/countries/country/Uk/glasgow.jpeg",
+        "/assets/img/countries/country/Uk/london.jpeg",
+        "/assets/img/countries/country/Uk/manchester.jpeg"
+      ],
+      "name": ["Cambridge", "Edinburgh", "Glasgow", "London", "Manchester"],
+      "explaination": [
+        "Explore historic university towns for a unique student experience with centuries-old traditions, stunning architecture, and green surroundings. Expect a competitive academic environment and higher living costs in these charming locations.",
+        "Edinburgh, Scotland's historic capital, combines medieval charm, impressive architecture, and a vibrant student scene. The University of Edinburgh, a top-ranking institution, adds to the appeal, while the city's walkability enhances exploration.",
+        "Glasgow, a lively Scottish city, is celebrated for its friendly ambiance, cultural richness, and affordability. The University of Glasgow and Glasgow Caledonian University attract global students with a diverse array of courses.",
+        "London, a global metropolis, offers unparalleled energy, opportunities, and prestigious universities like Imperial College, UCL, and LSE. With a thriving job market and cosmopolitan atmosphere, it embraces diversity, but living costs are high.",
+        "Manchester, a northern powerhouse, boasts industrial heritage, a vibrant music scene, and welcoming locals. With prestigious institutions like the University of Manchester and Manchester Metropolitan University, it provides an affordable living alternative to London."
+      ]
+    },
+    "skill": {
+      "name": [
+        "Health and Social Care",
+        "Information Technology (IT)",
+        "Construction",
+        "Engineering",
+        "Teaching"
+      ]
+    }
+  },
+
+  "canada": {
+    "sliderImg": "url('/assets/img/countries/country/canada/canada.jpeg')",
+    "flagImg": "/assets/img/countries/country/canada/canada_flag.png",
+    "img": {
+      "url": [
+        "url('/assets/img/countries/country/canada/cn-tower.jpg')",
+        "url('/assets/img/countries/country/canada/ontario.jpg')",
+        "url('/assets/img/countries/country/canada/stanley-park.jpg')"
+      ],
+      "placename": ["CN Tower", "Royal Ontario Museum", "Stanley Park"]
+    },
+    "facts": [
+      "600,000#Students annually opt for education in Canada.",
+      "10th#Largest economy in the world.",
+      "13th#Happiest country in the world."
+    ],
+    "introduction": "Canada is a popular destination for international students, renowned for its high-quality education, diverse culture, and welcoming environment. Boasting world-class universities and colleges, the country offers a wide range of academic programs. Canada's commitment to multiculturalism ensures a rich social experience for students from various backgrounds. Additionally, the country's natural beauty, including stunning landscapes and vibrant cities, enhances the overall student experience.#Canada prioritizes the well-being of its international students, providing support services and work opportunities during and after studies. With a reputation for safety and inclusivity, Canada continues to attract students seeking a globally recognized education and a fulfilling cultural experience.",
+    "reasons": {
+      "caption": [
+        "World-Class Education",
+        "Cultural mosaic",
+        "Affordable edge",
+        "Safe and stable",
+        "Endless adventure"
+      ],
+      "explaination": [
+        "Canada's education system is globally recognized, with top-ranking universities offering cutting-edge research facilities and diverse programs. It provides an ideal academic environment that challenges and inspires international students.",
+        "Experience Canada's vibrant multiculturalism with over 200 spoken languages. The welcoming atmosphere fosters inclusivity, broadening horizons, and creating lifelong friendships with peers from around the globe.",
+        "Canada provides a more affordable study option than other popular destinations, with lower tuition and living costs. Students can leverage scholarships and work opportunities, making studying abroad more accessible financially.",
+        "Renowned for low crime rates, political stability, and a high quality of life, Canada offers a secure environment for international students. This allows you to focus on studies and personal growth with confidence.",
+        "Canada offers diverse outdoor adventures, from skiing snowy peaks to kayaking glacial fjords. Explore bustling cities and charming towns, immersing yourself in the country's natural beauty and a variety of experiences."
+      ],
+      "icon": [
+        "fa-book",
+        "fa-users",
+        "fa-money",
+        "fa-balance-scale",
+        "fa-pagelines"
+      ]
+    },
+    "visaProcess": "Nepalese students aiming for a Canadian study experience should follow five crucial steps. First, select and apply to a university, securing acceptance. Then, submit the visa application and necessary documents online, including proof of funds, study acceptance, and medical records. Attend a visa application center for biometrics and fee payment. Optionally prepare for an interview by showcasing study and financial plans. Finally, await the visa decision via email and collect the passport upon approval. Keep abreast of updates on Canada's official website, as timelines and requirements may vary. Best of luck!",
+    "study": {
+      "level": ["Undergraduate", "Postgraduate", "PHD"],
+      "cost": [
+        "8,700 CAD - 30,000 CAD",
+        "20,000 CAD - 35,000 CAD",
+        "6000 CAD - 20,000 CAD"
+      ]
+    },
+    "university": {
+      "name": [
+        "University of Toronto",
+        "McGill University",
+        "University of British Columbia",
+        "University of Alberta",
+        "McMaster University"
+      ],
+      "rank": ["14", "25", "34", "111", "141"],
+      "countryRank": [1, 2, 3, 4, 5]
+    },
+    "livingCost": {
+      "reason": [
+        "Accomodation",
+        "Food and groceries",
+        "Transportation",
+        "Internet bills",
+        "Other expenses",
+        "Total"
+      ],
+      "cost": [
+        "400 CAD - 600 CAD",
+        "200 CAD - 300 CAD",
+        "100 CAD - 250 CAD",
+        "30 CAD - 50 CAD",
+        "200 CAD - 300 CAD",
+        "900 CAD - 1500 CAD"
+      ]
+    },
+    "city": {
+      "imgURL": [
+        "/assets/img/countries/country/canada/montreal.jpeg",
+        "/assets/img/countries/country/canada/toronto.jpeg",
+        "/assets/img/countries/country/canada/vancouver.jpeg",
+        "/assets/img/countries/country/canada/ottawa.jpeg",
+        "/assets/img/countries/country/canada/quebec.jpeg"
+      ],
+      "name": ["Montreal", "Toronto", "Vancouver", "Ottawa", "Quebec City"],
+      "explaination": [
+        "Montreal, home to McGill University, a top Canadian institution, boasts a vibrant international student community. The city's rich French-Canadian culture, delectable cuisine, and lively nightlife contribute to its dynamic atmosphere.",
+        "Toronto, Canada's largest city, is a cultural melting pot with diverse educational options. As a major economic hub, it provides abundant job opportunities for international students, making it an attractive destination.",
+        "Vancouver, on the picturesque Pacific coast, boasts a mild climate and breathtaking scenery. Hosting the renowned University of British Columbia, it provides a laid-back, outdoorsy lifestyle, making it an appealing destination.",
+        "Ottawa, Canada's capital, is ideal for political and international relations studies. Renowned for its safety and friendly atmosphere, the city fosters a strong sense of community, making it a welcoming study destination.",
+        "Quebec City, rich in French history and culture, hosts Laval University, among North America's oldest. With a unique European-style ambiance, this charming city provides a distinctive and immersive study environment."
+      ]
+    },
+    "skill": {
+      "name": [
+        "Information Technology (IT)",
+        "Healthcare professionals",
+        "Skilled Trades",
+        "Engineering Porfessionals",
+        "Finance and Accounting Professionals"
+      ]
+    }
+  },
+
+  "romania": {
+    "sliderImg": "url('/assets/img/countries/country/romania/romania.jpeg')",
+    "flagImg": "/assets/img/countries/country/romania/romania_flag.png",
+    "img": {
+      "url": [
+        "url('/assets/img/countries/country/romania/bran-castle.jpg')",
+        "url('/assets/img/countries/country/romania/pele-castle.jpg')",
+        "url('/assets/img/countries/country/romania/romanian-athenaeum.jpg')"
+      ],
+      "placename": ["Bran Castle", "Peleș Castle", "The Romanian Athenaeum"]
+    },
+    "facts": [
+      "100,000#Students annually opt for education in Romania.",
+      "24th#Happiest country in the world.",
+      "53rd#Largest economy in the world."
+    ],
+    "introduction": "Romania is an attractive destination for international students due to its affordable tuition fees, diverse academic programs in English, and a rich cultural experience. The country boasts high-quality education with globally recognized universities and a strong emphasis on research. The cost of living is lower than in many Western European countries, making it a budget-friendly option.#Additionally, students can immerse themselves in Romania's unique blend of Eastern and Western European influences, creating a culturally enriching and memorable educational experience.",
+    "reasons": {
+      "caption": [
+        "Affordability",
+        "Academic Excellence",
+        "Cultural Immerse",
+        "Warm Welcome",
+        "Gateway to Europe"
+      ],
+      "explaination": [
+        "Romania offers the European Union's lowest tuition fees and living costs, providing international students with a high-quality education at a fraction of the price compared to other Western European countries.",
+        "Romania's universities are renowned for academic excellence, offering diverse, internationally recognized programs in fields like medicine, engineering, humanities, and business. Many programs are taught in English, welcoming students globally.",
+        "Romania's unique blend of Eastern and Western European influences, vibrant traditions, historical sites, and captivating landscapes, including medieval castles, charming villages, bustling cities, and dramatic mountain ranges, provides diverse discoveries for everyone.",
+        "Romania is renowned for the hospitality and welcoming nature of its people. Integration into the local community is easy, offering a firsthand experience of the warm Romanian culture. English is widely spoken, facilitating communication for international students.",
+        "Romania's central location in Southeast Europe offers a strategic base for exploring neighboring countries such as Hungary, Bulgaria, and Serbia. This provides international students the opportunity to travel and broaden their horizons throughout the continent."
+      ],
+      "icon": [
+        "fa-money",
+        "fa-book",
+        "fa-users",
+        "fa-handshake-o",
+        "fa-location-arrow"
+      ]
+    },
+    "visaProcess": "For Nepali students planning to study in Romania, the process involves selecting a program and university, completing the application, obtaining a student visa, and securing a residence permit upon arrival. Consider financial aspects, explore scholarship opportunities, and be prepared for the cost of living. Prioritize adequate preparation, including accommodation and cultural familiarization. Utilize resources such as the Romanian Ministry of Education website and the Embassy of Romania in Nepal. Stay informed about specific university requirements and reach out for guidance. This comprehensive approach ensures a smooth transition and enriching academic experience in Romania.",
+    "study": {
+      "level": ["Undergraduate", "Postgraduate", "PHD"],
+      "cost": [
+        "10,000 RON - 25,000 RON",
+        "15,000 RON - 35,000 RON",
+        "15,000 RON - 30,000 RON"
+      ]
+    },
+    "university": {
+      "name": [
+        "Babes-Bolyai University",
+        "University of Bucharest",
+        "Transilvania University of Brasov",
+        "University of Medicine and Pharmacy 'Carol Davila'",
+        "West University of Timisoara"
+      ],
+      "rank": ["614", "649", "1228", "1401-1500", "1476-1550"],
+      "countryRank": [1, 2, 3, 4, 5]
+    },
+    "livingCost": {
+      "reason": [
+        "Accomodation",
+        "Food and groceries",
+        "Transportation",
+        "Utilites",
+        "Other expenses",
+        "Total"
+      ],
+      "cost": [
+        "1,000 RON - 2,500 RON",
+        "280 RON - 400 RON",
+        "25 RON - 50 RON",
+        "150 RON - 250 RON",
+        "200 RON - 400 RON",
+        "2,000 RON - 3,000 RON"
+      ]
+    },
+    "city": {
+      "imgURL": [
+        "/assets/img/countries/country/romania/cluj-napoca.jpeg",
+        "/assets/img/countries/country/romania/bucharest.jpeg",
+        "/assets/img/countries/country/romania/iasi.jpeg",
+        "/assets/img/countries/country/romania/timisoara.jpeg",
+        "/assets/img/countries/country/romania/brasov.jpeg"
+      ],
+      "name": ["Cluj-Napoca", "Bucharest", "Iași", "Timișoara", "Brasov"],
+      "explaination": [
+        "Cluj-Napoca, a vibrant student city, exudes a lively atmosphere with a burgeoning international community. Renowned universities like Babes-Bolyai and Technical University contribute to a diverse cultural scene amid affordable living costs, though winter temperatures can be chilly.",
+        "Bucharest, Romania's capital, boasts diverse cultural experiences, a lively nightlife, and top-ranked universities like the University of Bucharest. While offering good transportation and access to international entities, it comes with higher living costs and a potentially overwhelming atmosphere for some.",
+        "Iasi, a charming historical city, boasts a vibrant cultural scene and affordable living costs. Home to Alexandru Ioan Cuza University, renowned for humanities and social sciences, it offers an active student life, though with fewer international students, a colder winter climate, and a more traditional atmosphere.",
+        "Timișoara, a modern city with Austrian and Romanian influences, emphasizes science and technology. The well-rounded West University of Timișoara, a vibrant cultural scene, and diverse dining options characterize the city, albeit at slightly higher costs and fewer historical sights.",
+        "Brasov, a picturesque medieval town surrounded by mountains, houses Transilvania University known for engineering. With a growing tech scene, it offers a balanced lifestyle, though with limited nightlife, colder winters, and fewer direct flights."
+      ]
+    },
+    "skill": {
+      "name": [
+        "Healthcare professionals",
+        "Information Technology (IT)",
+        "Finance and Accounting Professionals",
+        "Engineering Porfessionals",
+        "Skilled Trades"
+      ]
+    }
+  },
+
+  "croatia": {
+    "sliderImg": "url('/assets/img/countries/country/croatia/croatia.jpeg')",
+    "flagImg": "/assets/img/countries/country/croatia/croatia_flag.png",
+    "img": {
+      "url": [
+        "url('/assets/img/countries/country/croatia/plitvice.jpg')",
+        "url('/assets/img/countries/country/croatia/krka.jpg')",
+        "url('/assets/img/countries/country/croatia/diocletian.jpg')"
+      ],
+      "placename": [
+        "Plitvice Lakes National Park",
+        "Krka National Park",
+        "Diocletian's Palace"
+      ]
+    },
+    "facts": [
+      "150,000#Students annually opt for education in Romania.",
+      "48th#Happiest country in the world.",
+      "76th#Largest economy in the world."
+    ],
+    "introduction": "Embark on an educational adventure in Croatia, where sandy beaches yield to ancient walls, and bustling cafes give way to crystal-clear seas. This captivating country invites international students with its mix of affordable education, breathtaking nature, and vibrant culture. Explore the depths of history at Diocletian's Palace, master the Croatian language over peka stew, and trek mountains with views of the Adriatic.#Choose Croatia for your studies, where each classroom unveils a world of discovery within a welcoming community.",
+    "reasons": {
+      "caption": [
+        "Affordable education and living costs",
+        "High-quality education system",
+        "Stunning natural beauty",
+        "Rich history and culture",
+        "Safe and welcoming environment"
+      ],
+      "explaination": [
+        "Croatia provides a cost-effective education for international students, boasting lower tuition fees and living expenses compared to many Western European countries.",
+        "Croatia takes pride in its rich academic heritage, featuring top-ranking universities like the University of Zagreb, University of Split, and University of Rijeka. These institutions offer diverse English-language programs.",
+        "Croatia, a haven for nature enthusiasts, unfolds its beauty from the clear Adriatic waters to the lush mountains. Students enjoy weekends hiking, swimming, skiing, sailing, or unwinding on scenic beaches.",
+        "Croatia's rich history and diverse culture, influenced by the Mediterranean and Central Europe, provide students with a captivating mix of ancient sites and vibrant local traditions.",
+        "Croatia, known for its safety and low crime rate, welcomes international students with warm hospitality, ensuring a secure and welcoming environment upon arrival."
+      ],
+      "icon": [
+        "fa-money",
+        "fa-book",
+        "fa-tree",
+        "fa-university",
+        "fa-handshake-o"
+      ]
+    },
+    "visaProcess": "Nepali students seeking a student visa for Croatia must follow a multi-step process. Obtain admission to a Croatian university, demonstrate financial means, secure comprehensive health insurance, and ensure passport validity. Complete the online visa application, submit necessary documents to the Croatian Embassy/Consulate or VFS Global center, pay the visa fee, and attend an interview if required. Processing may take weeks. Students can apply before or after arrival, with an option to extend the visa. Part-time work may be possible with a separate permit. Check official sources for updates on regulations and requirements.",
+    "study": {
+      "level": ["Undergraduate", "Postgraduate", "PHD"],
+      "cost": [
+        "2,600 EUR - 5,600 EUR",
+        "2,000 EUR - 7,000 EUR",
+        "2,500 EUR - 10,000 EUR"
+      ]
+    },
+    "university": {
+      "name": [
+        "University of Split",
+        "University of Zagreb",
+        "University of Rijeka",
+        "Josip Juraj Strossmayer University of Osijek",
+        "University of Dubrovnik"
+      ],
+      "rank": ["751-1000", "1001-1200", "1201+", "1201+", "1201+"],
+      "countryRank": [1, 2, 3, 4, 5]
+    },
+    "livingCost": {
+      "reason": [
+        "Accomodation",
+        "Food and groceries",
+        "Transportation",
+        "Utilites",
+        "Other expenses",
+        "Total"
+      ],
+      "cost": [
+        "£200 - £400",
+        "£150 - £250",
+        "£30 - £50",
+        "£40 - £70",
+        "£100 - £150",
+        "£400 - £700"
+      ]
+    },
+    "city": {
+      "imgURL": [
+        "/assets/img/countries/country/croatia/zagreb.jpeg",
+        "/assets/img/countries/country/croatia/split.jpeg",
+        "/assets/img/countries/country/croatia/rijeka.jpg",
+        "/assets/img/countries/country/croatia/osijek.jpg",
+        "/assets/img/countries/country/croatia/dubrovnik.jpeg"
+      ],
+      "name": ["Zagreb", "Split", "Rijeka", "Osijek", "Dubrovnik"],
+      "explaination": [
+        "Zagreb, Croatia's capital, boasts a vibrant culture and rich history. The prestigious University of Zagreb provides diverse academic programs. Explore markets, museums, parks, and cafes for leisure.",
+        "Split, a coastal gem, harmonizes ancient history with modern charm. Diocletian's Palace, a UNESCO site, and a vibrant waterfront with bars overlook the Adriatic Sea. University of Split offers English programs.",
+        "Rijeka, Croatia's third-largest city on the Kvarner Gulf, is a vibrant cultural hub with a lively student scene from the University of Rijeka. Ideal for exploring islands and national parks.",
+        "Osijek, in eastern Croatia, exudes charm with a relaxed vibe. The Josip Juraj Strossmayer University offers diverse programs. Experience Croatian culture through folk festivals and delicious local cuisine.",
+        "Dubrovnik, the 'Pearl of the Adriatic', captivates with medieval walls, narrow streets, and beautiful beaches. Hosting the University of Dubrovnik with English programs, note higher living costs."
+      ]
+    },
+    "skill": {
+      "name": [
+        "Healthcare professionals",
+        "Finance and Accounting Professionals",
+        "Information Technology (IT)",
+        "Engineering Porfessionals",
+        "Skilled Trades"
+      ]
+    }
+  },
+
+  "malta": {
+    "sliderImg": "url('/assets/img/countries/country/malta/malta.jpeg')",
+    "flagImg": "/assets/img/countries/country/malta/malta_flag.png",
+    "img": {
+      "url": [
+        "url('/assets/img/countries/country/malta/co-cathedral.jpg')",
+        "url('/assets/img/countries/country/malta/comino.jpg')",
+        "url('/assets/img/countries/country/malta/ramla-beach.jpg')"
+      ],
+      "placename": ["St. John's Co-Cathedral", "Comino", "Ramla Beach"]
+    },
+    "facts": [
+      "10,000#Students annually opt for education in Malta.",
+      "28th#ranked country in the world according to World Peace Index.",
+      "33rd#Happiest country in the world."
+    ],
+    "introduction": "Malta is an ideal destination for international study due to its rich history, diverse culture, and English-speaking environment. Renowned for its high-quality education system, Malta offers a range of internationally recognized courses and degrees. The picturesque Mediterranean setting provides a unique backdrop for academic pursuits, while the country's welcoming atmosphere fosters a supportive learning environment.#Additionally, Malta's strategic location offers easy access to Europe and beyond, making it a gateway for cultural exploration and travel during one's academic journey.",
+    "reasons": {
+      "caption": [
+        "Sun-kissed Mediterranean",
+        "Affordable Education and Living",
+        "Cultural Immerse",
+        "English-Speaking Nation",
+        "Gateway to Europe"
+      ],
+      "explaination": [
+        "Study in sun-soaked Malta with 300+ sunny days yearly. From vibrant Mellieħa Bay to tranquil Paradise Bay, enjoy stunning beaches and diverse coastal experiences.",
+        "Malta provides a cost-effective study option in Europe with lower tuition fees, affordable student accommodation (€250-€350/month), and reasonably priced groceries and dining options.",
+        "Immerse yourself in Malta's rich history through Valletta's UNESCO-listed architecture and the enigma of Megalithic Temples. Dive into cultural vibrancy with traditional markets and lively religious festivals.",
+        "Study in Malta without language barriers. English is widely spoken, simplifying daily life and enhancing cultural engagement for international students, who can concentrate on studies and integration.",
+        "Study in Malta and easily explore Europe with budget flights from Malta International Airport to nearby countries like Italy, France, and Spain for short breaks."
+      ],
+      "icon": [
+        "fa-sun-o",
+        "fa-money",
+        "fa-users",
+        "fa-language",
+        "fa-location-arrow"
+      ]
+    },
+    "visaProcess": "Nepali students aspiring to pursue international studies in Malta must navigate a specific visa process. To be eligible, secure acceptance from a recognized Maltese university, demonstrate financial means, hold a valid passport, and obtain health insurance. The application involves scheduling a visa appointment, completing forms, and submitting supporting documents. Allow 4-6 weeks for processing and consider travel insurance. Biometric data may be required, and additional requirements could apply. Visit the VFS Global Malta website and the Ministry of Foreign Affairs of Malta for the latest information and guidance tailored to your program. Contact the Maltese visa application center in Nepal for specific details.",
+    "study": {
+      "level": ["Undergraduate", "Postgraduate", "PHD"],
+      "cost": ["€5,000 - €27,000", "€3,000 - €10,000", "€5,000 - €31,000"]
+    },
+    "university": {
+      "name": [
+        "University of Malta (UM)",
+        "American University of Malta (AUM)",
+        "Malta College of Arts, Science and Technology (MCAST)",
+        "St Martin's Institute of Higher Education",
+        "Queen Mary University of London (QMUL)"
+      ],
+      "rank": ["873", "Not available", "10,421", "14,983", "Not available"],
+      "countryRank": [1, 2, 3, 4, 5]
+    },
+    "livingCost": {
+      "reason": [
+        "Accomodation",
+        "Food and groceries",
+        "Transportation",
+        "Utilites",
+        "Other expenses",
+        "Total"
+      ],
+      "cost": [
+        "€300 - €500",
+        "€250 - €350",
+        "€25 - €35",
+        "€50 - €100",
+        "€100 - €150",
+        "€700 - €900"
+      ]
+    },
+    "city": {
+      "imgURL": [
+        "/assets/img/countries/country/malta/gozo.jpg",
+        "/assets/img/countries/country/malta/msida.jpeg",
+        "/assets/img/countries/country/malta/sliema.jpeg",
+        "/assets/img/countries/country/malta/st-julian.jpeg",
+        "/assets/img/countries/country/malta/valletta.jpeg"
+      ],
+      "name": [
+        "Valletta",
+        "St. Julian's",
+        "Sliema & Gzira",
+        "Msida & Birkirkara",
+        "Gozo"
+      ],
+      "explaination": [
+        "UNESCO World Heritage city with vibrant streets, museums, and excellent public transport. Downsides include a smaller size, potentially higher accommodation costs, and limited green spaces.",
+        "Vibrant student hub with lively atmosphere, beaches, nightlife, diverse accommodations, and dining options. Drawbacks include noise, crowds, and higher living costs.",
+        "Beautiful seaside locale with serene pace, coastal views, cafes, and easy Valletta access. Downsides include limited nightlife and potential distance from universities.",
+        "Affordable living, accessible public transport, growing diverse student population, and a residential atmosphere. Downsides include fewer attractions and potential longer commutes to beaches or nightlife.",
+        "Studying on a smaller island offers tranquility, scenic beauty, unique culture, friendliness, and potentially lower living costs. However, limited universities, ferry reliance, and a quieter social scene are considerations."
+      ]
+    },
+    "skill": {
+      "name": [
+        "Information Technology (IT)",
+        "Engineering and Manufacturing",
+        "Healthcare and Life Sciences",
+        "Hospitality and Tourism Professionals",
+        "Marketing and Communications Professionals"
+      ]
+    }
+  },
+
+  "bangladesh": {
+    "sliderImg": "url('/assets/img/countries/country/bangladesh/bangladesh.jpeg')",
+    "flagImg": "/assets/img/countries/country/bangladesh/bangladesh_flag.png",
+    "img": {
+      "url": [
+        "url('/assets/img/countries/country/bangladesh/lalbagh.jpg')",
+        "url('/assets/img/countries/country/bangladesh/manzil-museum.jpg')",
+        "url('/assets/img/countries/country/bangladesh/sompur.jpg')"
+      ],
+      "placename": ["Lalbagh Fort", "Ahsan Manzil Museum", "Sompur Mahavihara"]
+    },
+    "facts": [
+      "74%#Literacy rate.",
+      "8th#Most populous country.",
+      "35th#Largest economy in the world."
+    ],
+    "introduction": "International students should consider Bangladesh for its diverse educational opportunities, vibrant culture, and welcoming atmosphere. The country offers a range of affordable programs in various disciplines, providing quality education with a global perspective. Bangladesh's rich history and cultural heritage enhance the learning experience, while the warm hospitality of its people fosters a supportive environment for international students.#The cost of living is relatively low, and the country's natural beauty, from lush landscapes to bustling cities, adds to the appeal of pursuing higher education in Bangladesh.",
+    "reasons": {
+      "caption": [
+        "Affordable Education",
+        "Diverse and Stimulating Environment",
+        "Strong Academic Programs",
+        "English Language Proficiency",
+        "Gateway to South Asia"
+      ],
+      "explaination": [
+        "Bangladesh provides affordable education with significantly lower tuition and living costs, offering high-quality undergraduate and postgraduate programs at public universities compared to Western countries.",
+        "Immerse in Bangladesh's rich culture, marked by festivals, celebrations, and warm hospitality, creating a vibrant atmosphere for international students.",
+        "Bangladesh's education system includes prestigious universities like the University of Dhaka, offering diverse programs, providing excellent academic opportunities for international students.",
+        "English proficiency in academic and professional settings facilitates seamless communication and integration for international students in Bangladesh, minimizing language barriers in daily life.",
+        "Study in Bangladesh opens doors to explore South Asia. Its strategic location provides easy access to India, Nepal, and Bhutan, fostering cultural understanding and professional networks."
+      ],
+      "icon": [
+        "fa-money",
+        "fa-users",
+        "fa-book",
+        "fa-language",
+        "fa-location-arrow"
+      ]
+    },
+    "visaProcess": "Nepalese students planning to study in Bangladesh can apply for a Student Visa (Category TI). Secure an acceptance letter, demonstrate financial proof, and obtain medical insurance. Submit an online application through the Bangladesh e-Visa portal, including required documents. Pay the visa processing fee online, with processing typically taking 7-15 working days. Once approved, download the visa grant letter and collect the visa sticker from the nearest Bangladesh embassy or consulate in Nepal. Attend an interview if required and ensure valid, translated documents. Check the latest requirements on the e-Visa website and consult helpful resources.",
+    "study": {
+      "level": ["Undergraduate", "Postgraduate", "PHD"],
+      "cost": ["$500 - $2,500", "$1,000 - $4,000", "1,500 - $8,000"]
+    },
+    "university": {
+      "name": [
+        "University of Dhaka (DU)",
+        "Bangladesh University of Engineering and Technology (BUET)",
+        "Jahangirnagar University",
+        "BRAC University",
+        "Independent University, Bangladesh (IUB)"
+      ],
+      "rank": [
+        "691",
+        "Not available",
+        "801 - 1000",
+        "Not available",
+        "Not available"
+      ],
+      "countryRank": [1, 2, 3, 4, 5]
+    },
+    "livingCost": {
+      "reason": [
+        "Accomodation",
+        "Food and groceries",
+        "Transportation",
+        "Utilites",
+        "Other expenses",
+        "Total"
+      ],
+      "cost": [
+        "$50 - $250",
+        "$100 - $150 ",
+        "$10 - $20",
+        "$5 - $25",
+        "$20 - $30",
+        "$150 - $300"
+      ]
+    },
+    "city": {
+      "imgURL": [
+        "/assets/img/countries/country/malta/gozo.jpg",
+        "/assets/img/countries/country/malta/msida.jpeg",
+        "/assets/img/countries/country/malta/sliema.jpeg",
+        "/assets/img/countries/country/malta/st-julian.jpeg",
+        "/assets/img/countries/country/malta/valletta.jpeg"
+      ],
+      "name": ["Dhaka", "Chittagong", "Rajshahi", "Khulna", "Sylhet"],
+      "explaination": [
+        "The capital city provides access to renowned universities, a vibrant cultural scene, and diverse entertainment. However, drawbacks include crowding, noise, and high living costs.",
+        "The second-largest city is home to CUET, the second-best engineering university, stunning beaches, and a relaxed atmosphere. However, cultural and entertainment options are limited compared to Dhaka.",
+        "As a cultural hub, it hosts Rajshahi University with strong humanities programs, vibrant traditional festivals. Downsides include limited international connections and a slower pace of life.",
+        "As the gateway to the Sundarbans, it provides proximity to the largest mangrove forest, a blend of urban-natural landscapes, and lower living costs. Downsides include limited educational and professional opportunities.",
+        "Nestled amidst mountains, tea gardens, and waterfalls, the scenic city provides a picturesque setting and a relaxed pace of life. However, drawbacks include limited university options and fewer international connections."
+      ]
+    },
+    "skill": {
+      "name": [
+        "Information Technology (IT)",
+        "Engineering and Manufacturing",
+        "Healthcare and Life Sciences",
+        "Hospitality and Tourism Professionals",
+        "Marketing and Communications Professionals"
+      ]
+    }
+  }
+}

@@ -1,0 +1,130 @@
+.country-page-city-section-wrapper {
+  flex-direction: column;
+}
+
+.country-page-city-item-img {
+  width: 100%;
+  height: 200px;
+}
+
+.country-page-city-item-img span {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.country-page-city-item {
+  margin: 30px 25px;
+  width: 350px;
+  height: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.country-page-city-item-explaination {
+  padding: 10px 15px 15px !important;
+}
+
+.country-page-city-item-caption {
+  text-align: center;
+  font-family: var(--theme-font);
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+.country-page-city-item-explaination {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--theme-font);
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .country-page-city-item {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .country-page-city-item {
+    width: 250px;
+  }
+
+  .country-page-city-item-img {
+    height: 150px;
+  }
+
+  .country-page-city-item-caption {
+    margin-top: 0.25rem;
+  }
+
+  .country-page-city-item-explaination {
+    padding: 5px 15px 15px !important;
+  }
+
+  .country-page-city-item-explaination {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .country-page-city-section-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .country-page-city-section:nth-child(1) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .country-page-city-item {
+    margin: 30px 35px;
+    width: 280px;
+  }
+
+  .country-page-city-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .country-page-city-wrapper p {
+    font-size: 17px !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .country-page-city-section:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .country-page-city-section:nth-child(1) section {
+    flex-direction: column;
+  }
+
+  .country-page-city-item {
+    margin: 30px 0;
+    width: 330px;
+  }
+
+  .country-page-city-item-img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .country-page-city-item {
+    width: 300px;
+  }
+
+  .country-page-city-item-img {
+    height: 180px;
+  }
+}

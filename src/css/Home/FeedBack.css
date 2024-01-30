@@ -1,0 +1,134 @@
+:root {
+  --feedback-carousel-width: 582px;
+}
+
+.feedback-items-wrapper {
+  width: calc(var(--feedback-carousel-width) * 2);
+  overflow-x: hidden;
+  padding: 10px 0;
+  transition: 0.5s;
+}
+
+.feedback-items-slide {
+  width: calc(var(--feedback-carousel-width) - 2rem);
+  height: fit-content;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 2rem 2rem;
+}
+
+.feedback-items-slider {
+  transition: 0.5s;
+}
+
+.feedback-items-content {
+  font-family: var(--theme-font);
+}
+
+.feedback-items-content i {
+  color: var(--main-theme-color);
+  font-size: 30px;
+}
+
+.feedback-items-content .name {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.feedback-items-content .faculty {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Source Serif 4", serif;
+}
+
+.feedback-items-content .para {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.feedback-items-buttons {
+  width: calc(var(--feedback-carousel-width) * 2);
+  height: 550px;
+  pointer-events: none;
+  padding: 0 20px;
+}
+
+.feedback-items-buttons button {
+  pointer-events: all;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-items-buttons button i {
+  font-size: 25px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.2s;
+}
+
+.feedback-items-buttons button i:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --feedback-carousel-width: 652px;
+  }
+
+  .feedback-items-wrapper {
+    width: calc(var(--feedback-carousel-width) * 1);
+  }
+
+  .feedback-items-buttons {
+    width: calc(var(--feedback-carousel-width) * 1);
+  }
+
+  .feedback-items-slide {
+    padding: 2rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  :root {
+    --feedback-carousel-width: 452px;
+  }
+
+  .feedback-items-slide {
+    padding: 2rem 2rem;
+  }
+
+  .feedback-items-content .name {
+    font-size: 23px;
+  }
+
+  .feedback-items-content .faculty {
+    font-size: 15px;
+  }
+
+  .feedback-items-content .para {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  :root {
+    --feedback-carousel-width: 352px;
+  }
+
+  .feedback-items-slide {
+    padding: 1rem 1rem;
+  }
+
+  .feedback-items-content i {
+    font-size: 23px;
+  }
+}

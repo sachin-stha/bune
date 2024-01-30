@@ -1,0 +1,284 @@
+:root {
+  --carousel-height: 700px;
+}
+
+.billboard {
+  height: var(--carousel-height);
+  background-image: url("/assets/img/billboard-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.billboard-wrapper {
+  max-width: var(--header-max-width);
+  height: 100%;
+}
+
+.billboard-text-contents {
+  flex: 1;
+}
+
+.billboard-img {
+  position: absolute;
+}
+
+.billboard-img img {
+  width: 400px;
+}
+
+.billboard-banner-wrapper {
+  width: 270px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0 0 20px #00000036;
+  transform: translate(40%, 30px);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.billboard-banner-img img {
+  width: 100% !important;
+}
+
+.billboard-banner-text {
+  font-family: var(--theme-font);
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.billboard-btns {
+  margin-top: 1.5rem;
+}
+
+.billboad-inquiry button {
+  width: 130px;
+  height: 45px;
+  background-color: orange;
+  cursor: pointer;
+  font-family: var(--theme-font);
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.caption-primary {
+  flex-direction: column;
+}
+
+.caption-primary span {
+  font-family: var(--theme-font);
+  font-size: 64px;
+  color: white;
+  font-weight: 800;
+  line-height: 1;
+  width: fit-content;
+}
+
+.caption-primary span p {
+  width: 0%;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  animation: 7000ms infinite;
+  animation-fill-mode: forwards;
+  transition: 1s;
+}
+
+.caption-primary span:nth-child(2) p {
+  color: #ffce5d;
+}
+
+.caption-secondary {
+  font-family: var(--theme-font);
+  font-size: 18px;
+  color: white;
+  transition: 1s;
+}
+
+@media screen and (max-width: 1400px) {
+  :root {
+    --carousel-height: 550px;
+  }
+
+  .billboard-banner-wrapper {
+    transform: translate(110%, 30px);
+  }
+
+  .caption-primary span {
+    font-size: 55px;
+  }
+
+  .billboard-banner-wrapper {
+    width: 270px;
+    height: 370px;
+  }
+
+  .billboard-banner-text {
+    font-size: 16px;
+  }
+
+  .billboard-img img {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --carousel-height: 520px;
+  }
+
+  .caption-secondary {
+    text-wrap: wrap;
+    width: 50%;
+  }
+
+  .caption-primary span {
+    font-size: 50px;
+  }
+
+  .billboard-img img {
+    width: 300px;
+  }
+
+  .billboard-banner-wrapper {
+    width: 220px;
+    height: 320px;
+  }
+
+  .billboard-banner-wrapper .billboard-banner-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    --carousel-height: 450px;
+  }
+
+  .billboard-banner-wrapper {
+    transform: translate(110%, -20px);
+  }
+
+  .caption-primary span {
+    font-size: 45px;
+  }
+
+  .billboard-img img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  :root {
+    --carousel-height: 820px;
+  }
+
+  .billboard {
+    padding-bottom: 50px;
+  }
+
+  .billboard-wrapper {
+    padding: 40px 0 0;
+  }
+
+  .caption-primary {
+    align-items: center;
+  }
+
+  .caption-primary span {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    font-size: 50px;
+  }
+
+  .caption-secondary {
+    margin: auto;
+    text-align: center;
+    width: auto;
+  }
+
+  .billboard-wrapper {
+    flex-direction: column;
+  }
+
+  .billboard-img {
+    position: relative;
+  }
+
+  .billboard-img img {
+    width: 350px;
+  }
+
+  .billboard-banner-wrapper {
+    position: absolute;
+    transform: translate(10%, 40px);
+    width: 270px;
+    height: 350px;
+  }
+
+  .billboad-inquiry {
+    display: flex;
+    justify-content: center;
+  }
+
+  .billboard-btns {
+    margin-top: 1.5rem;
+  }
+
+  .billboard-banner-wrapper .billboard-banner-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  :root {
+    --carousel-height: fit-content;
+  }
+
+  .caption-primary span {
+    font-size: 35px;
+  }
+
+  .caption-secondary {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .billboard-banner-wrapper {
+    transform: translate(10%, 20px);
+    width: 240px;
+    height: 335px;
+  }
+
+  .billboard-img {
+    margin-top: 50px;
+  }
+
+  .billboard-img img {
+    width: 300px;
+  }
+
+  .billboad-inquiry button {
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .billboard-img img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .caption-primary span {
+    font-size: 30px;
+  }
+}

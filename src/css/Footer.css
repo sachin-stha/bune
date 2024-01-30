@@ -1,0 +1,232 @@
+:root {
+  --footer-width: var(--header-max-width);
+}
+
+.footer {
+  /* background-color: var(--main-theme-color); */
+  background-color: rgb(73, 11, 30);
+  height: fit-content;
+}
+
+.footer-wrapper {
+  width: var(--footer-width);
+  padding: 60px 0 100px 0;
+  font-family: var(--theme-font);
+}
+
+.footer-column {
+  flex: 1;
+  justify-content: space-around;
+}
+
+.footer-items-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-company-details {
+  width: 70%;
+}
+
+.footer-outro {
+  margin-top: 30px;
+}
+
+.footer-outro p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0 50px 0 0;
+}
+
+.footer-logo {
+  padding: 0 0 0 10px;
+}
+
+.footer-logo img {
+  width: 200px;
+}
+
+.footer-social-media-links ul li {
+  background-color: rgb(94, 60, 70);
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+.footer-social-media-links ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.footer-social-media-links ul li:hover {
+  background-color: white;
+}
+
+.footer-social-media-links ul li:hover > a {
+  color: rgb(94, 60, 70);
+}
+
+.footer-useful-links {
+  width: 20%;
+}
+
+.footer-useful-links ul li,
+.footer-country-destinations ul li {
+  margin-bottom: 6px;
+}
+
+.footer-useful-links ul li a,
+.footer-country-destinations ul li a,
+.footer-address-content p,
+.footer-phone-no p a,
+.footer-phone-no p i,
+.footer-mail p a,
+.footer-mail p i {
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-useful-links ul li a:hover,
+.footer-country-destinations ul li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+.footer-extra {
+  flex-direction: column;
+}
+
+.footer-view-location {
+  background-color: rgb(94, 60, 70);
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  transition: 0.2s;
+}
+
+.footer-view-location a {
+  color: white;
+  transition: 0.2s;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-view-location:hover {
+  background-color: white;
+}
+.footer-view-location:hover > a {
+  color: rgb(94, 60, 70);
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-contents {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    justify-content: space-between;
+  }
+
+  .footer-second-column {
+    flex-direction: row-reverse;
+    margin-top: 30px;
+  }
+
+  .footer-company-details,
+  .footer-useful-links,
+  .footer-extra,
+  .footer-country-destinations {
+    flex: 1;
+  }
+
+  .footer-company-details,
+  .footer-extra {
+    padding-right: 15%;
+  }
+
+  .footer-useful-links,
+  .footer-country-destinations {
+    padding-left: 15%;
+  }
+
+  .footer-outro p {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .footer-outro {
+    padding: 0 5%;
+  }
+
+  .footer-outro p {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-company-details,
+  .footer-useful-links {
+    width: unset;
+  }
+
+  .footer-company-details,
+  .footer-extra,
+  .footer-useful-links,
+  .footer-country-destinations,
+  .footer-address {
+    padding: 0%;
+    margin-bottom: 10px;
+  }
+
+  .footer-second-column {
+    margin: 0;
+  }
+
+  .footer-column,
+  .footer-address,
+  .footer-address-content,
+  .footer-contact,
+  .footer-company-details,
+  .footer-useful-links ul,
+  .footer-country-destinations ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-outro p,
+  .footer-useful-links ul li a,
+  .footer-country-destinations ul li a,
+  .footer-address-content p,
+  .footer-phone-no p a,
+  .footer-phone-no p i,
+  .footer-mail p a,
+  .footer-mail p i {
+    font-size: 16px;
+  }
+
+  .footer-items-heading {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .footer-phone-no p {
+    margin-bottom: 10px;
+  }
+}

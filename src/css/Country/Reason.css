@@ -1,0 +1,106 @@
+.country-page-reasons-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  width: 400px;
+}
+
+.country-page-reasons-item-icon {
+  width: 100px;
+  height: 100px;
+  /* background-color: var(--main-theme-color); */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.country-page-reasons-item-icon span i {
+  color: white;
+  font-size: 40px;
+  text-shadow: 5px 5px 0 #ffffff1a;
+}
+
+.country-page-reasons-item-caption {
+  text-align: center;
+  font-family: var(--theme-font);
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+.country-page-reasons-item-explaination {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: var(--theme-font);
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .country-page-reasons-item {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .country-page-reasons-item {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .country-page-reasons-section:nth-child(1) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .country-page-reasons-item {
+    width: 320px;
+    padding: 20px 10px;
+  }
+
+  .country-page-reasons-item-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .country-page-reasons-item-icon span i {
+    font-size: 30px;
+  }
+
+  .country-page-reasons-item-caption {
+    font-size: 20px;
+  }
+
+  .country-page-reasons-item-explaination {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .country-page-reasons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .country-page-reasons-section,
+  .country-page-reasons-section section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .country-page-reasons-item {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .country-page-reasons-item {
+    width: 345px;
+  }
+}

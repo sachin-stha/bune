@@ -1,0 +1,149 @@
+:root {
+  --subscribe-input-width: 500px;
+}
+
+.subscribe {
+  background-color: #ffd0d0;
+}
+
+.subscribe-input {
+  flex-direction: column;
+}
+
+.subscribe-input-wrapper {
+  width: var(--subscribe-input-width);
+  height: 50px;
+  border-radius: 5px;
+}
+
+.subscribe-input-wrapper p {
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+
+.subscribe-success-message h1 {
+  font-family: var(--theme-font);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.subscribe-success-message h1 span {
+  color: var(--main-theme-color);
+}
+
+.subscribe-email-container input {
+  width: 80%;
+  height: 100%;
+  padding: 0 15px;
+  outline: none;
+  border: none;
+  font-family: var(--theme-font);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: white;
+}
+
+.subscribe-otp-container input {
+  border: 1px solid;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 20px;
+  width: 50px;
+  height: 100%;
+  border-radius: 5px;
+  border-color: black;
+  outline: none;
+}
+
+.subscribe-email-container input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.subscribe-email-container button {
+  font-weight: 600;
+  font-family: var(--theme-font);
+  width: 20%;
+  height: 100%;
+  font-size: 18px;
+  color: white;
+  background-color: var(--main-theme-color);
+  padding: 0 10px;
+  outline: none;
+  border: none;
+  white-space: nowrap;
+}
+
+.subscribe-input .login-p {
+  width: var(--subscribe-input-width);
+  font-size: 16px;
+  font-family: var(--theme-font);
+  font-weight: 600;
+}
+
+.subscribe-extra-p {
+  font-family: var(--theme-font);
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 993px) {
+  :root {
+    --subscribe-input-width: 420px;
+  }
+
+  .subscribe-extra-p {
+    font-size: 20px;
+  }
+
+  .subscribe-input-wrapper {
+    height: 45px;
+  }
+
+  .login-p {
+    padding: 0 30px 0 0;
+  }
+
+  .subscribe-email-container button {
+    font-size: 15px;
+    width: 25%;
+    padding: 0;
+  }
+
+  .subscribe-email-container input {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .subscribe-email-container input {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  :root {
+    --subscribe-input-width: 340px;
+  }
+
+  .subscribe-email-container input {
+    width: calc(100% - 70px);
+  }
+
+  .subscribe-extra-p br {
+    display: none;
+  }
+
+  .subscribe-extra-p {
+    font-size: 17px;
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+    --subscribe-input-width: 280px;
+  }
+}

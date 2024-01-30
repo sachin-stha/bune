@@ -1,0 +1,70 @@
+.page-location-banner {
+  height: 150px;
+  width: 100%;
+  background-image: url("/assets/img/location-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-location-banner-wrapper {
+  background-color: rgb(255 33 99 / 90%);
+}
+
+.page-location-banner-content {
+  flex-direction: column;
+  width: var(--header-max-width);
+}
+
+.page-location-banner-item-heading {
+  color: white;
+  font-family: var(--theme-font);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+
+.page-location-banner-file-location {
+  margin-top: 5px;
+}
+
+.page-location-banner-file-location a {
+  color: white;
+  font-family: var(--theme-font);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.page-location-banner-file-location a:last-child {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 769px) {
+  .page-location-banner {
+    height: 125px;
+  }
+
+  .page-location-banner-item-heading {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 0 5%;
+  }
+
+  .page-location-banner-file-location {
+    padding: 0 5%;
+  }
+
+  .page-location-banner-file-location a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .page-location-banner-item-heading {
+    text-align: center;
+  }
+
+  .page-location-banner-file-location {
+    text-align: center;
+  }
+}
